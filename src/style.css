@@ -1,0 +1,83 @@
+:root {
+    --blue: #1717c0;
+    --whitesmoke: #f5f5f5;
+    --lightblue: #147da7;
+    --slategray: #141d53;
+    --black: #000000;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color:black;
+    background-color: var(--whitesmoke);
+    text-align: center;
+}
+
+
+.team-header {
+    background-color: var(--blue);
+    color: var(--whitesmoke);
+    padding: 15px;
+}
+
+/* employee card style */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.employee-card {
+    border: 1px solid var(--black);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.card-header {
+    color: var(--whitesmoke);
+    background-color: var(--slategray);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px 25px;
+}
+
+.card-name {
+    font-size: 25px;
+    padding: 5px;
+}
+
+.card-position {
+    font-size: 20px;
+}
+
+.employee-info {
+    list-style-type: none;
+    text-align:left;
+    margin: 5px;
+    font-size: 15px;
+    padding: 8px;
+}
+
+.list-info {
+    padding: 5px;
+    border: 1px solid var(--black);
+}
+
+.id {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.office, .github, .school {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
