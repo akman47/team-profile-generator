@@ -23,7 +23,7 @@ const generateEngineers = engineers => {
         return ``;
     }
 
-    return ` ${engineers.map(({ engineer }) => {
+    return engineers.map(engineer => {
         return `
             <div class="employee-card engineer">
                 <div class="card-header">
@@ -33,13 +33,12 @@ const generateEngineers = engineers => {
                 <ul class="employee-info">
                     <li class="list-info id">ID: ${engineer.id}</li>
                     <li class="list-info email">Email: <a href="mailto:${engineer.email}">${engineer.email}</a></li>
-                    <li class="list-info github">GitHub: ${engineer.getGithub()}</li>
+                    <li class="list-info github">GitHub: <a href="https://github.com/${engineer.getGithub()}" target="_blank">${engineer.getGithub()}</a></li>
                 </ul>
             </div>
         `;
     })
-    .join("")}
-    `;
+    .join("");
 };
 
 const generateInterns = interns => {
@@ -47,7 +46,7 @@ const generateInterns = interns => {
         return ``;
     }
 
-    return `${interns.map(({ intern }) => {
+    return interns.map(intern => {
         return `   
             <div class="employee-card intern">
                 <div class="card-header">
@@ -62,8 +61,7 @@ const generateInterns = interns => {
             </div>
         `;
     })
-    .join("")}
-    `;
+    .join("");
 }
 
 module.exports = (manager, engineers, interns) => {
@@ -88,7 +86,8 @@ module.exports = (manager, engineers, interns) => {
         <main>
             <div class="card-container">
                 ${generateManager(manager)}
-                
+                ${generateEngineers(engineers)}
+                ${generateInterns(interns)}
             </div>
         </main>
     </body>
