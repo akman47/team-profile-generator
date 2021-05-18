@@ -4,7 +4,7 @@
 A command line application that takes in information about employees on a software engineering team and generates an HTML webpage displaying summaries about each person
 
 ## User Story
-Aa a manager, I wabt to generate a webpage that displays my team's basic info so that I have quick access to their emails and GitHub profiles
+Aa a manager, I want to generate a webpage that displays my team's basic info so that I have quick access to their emails and GitHub profiles
 
 ## Made with
 * HTML
@@ -31,6 +31,11 @@ Aa a manager, I wabt to generate a webpage that displays my team's basic info so
 * Jest
 
 ## Tests
+* Used Jest to test Manager, Engineer, and Intern objects, properties, and methods
+* Run <code>npm test Manager</code> to test Manager objects
+* Run <code>npm test Engineer</code> to test Engineer objects
+* Run <code>npm test Intern</code> to test Intern objects
+* Run <code>npm test</code> to test all objects
 
 ## Criteria
 * GIVEN a command-line application that accepts user input
