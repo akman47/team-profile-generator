@@ -13,12 +13,12 @@ Aa a manager, I want to generate a webpage that displays my team's basic info so
 * Node.js
 
 ## Snapshot
-![Snapshot of the terminal prompts for employee information](./assets/images/command-prompts.png)
-![Snapshot of the generated webpage displaying employee information](./assets/images/team-profile.png)
+![Snapshot of the terminal prompts for employee information](./images/command-prompts.png)
+![Snapshot of the generated webpage displaying employee information](./images/team-profile.png)
 
 ## Screen Recording
-![Screen recording of how to use the application](./assets/images/team-profile-generator-demo.gif)
-* [Walkthrough Link]()
+![Screen recording of how to use the application](./images/team-profile-generator-demo.gif)
+* [Walkthrough Link](https://drive.google.com/file/d/1K0YD6v-b3VhPqEVABp4NByzhi3y9csDD/view)
 
 ## Usage
 1. Clone team profile generator repository

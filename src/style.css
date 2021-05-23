@@ -15,14 +15,14 @@
 
 body {
     color:black;
-    background-color: var(--whitesmoke);
+    background-color: rgb(9, 90, 12, 0.3);
     text-align: center;
 }
 
 .team-header {
     background-color: var(--green);
     color: var(--whitesmoke);
-    padding: 15px;
+    padding: 25px;
 }
 
 /* employee card style */
@@ -63,7 +63,7 @@ body {
 
 .oi {
     padding: 12px;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .employee-info {
@@ -100,4 +100,3 @@ body {
         width: 80%;
     }
 }
-

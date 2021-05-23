@@ -65,8 +65,6 @@ const generateInterns = interns => {
 }
 
 module.exports = (manager, engineers, interns) => {
-    console.log(manager, engineers, interns);
-
     return `
     <!DOCTYPE html>
     <html lang="en">
