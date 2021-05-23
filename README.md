@@ -18,7 +18,7 @@ Aa a manager, I want to generate a webpage that displays my team's basic info so
 
 ## Screen Recording
 ![Screen recording of how to use the application](./images/team-profile-generator-demo.gif)
-* [Walkthrough Link](https://drive.google.com/file/d/1K0YD6v-b3VhPqEVABp4NByzhi3y9csDD/view)
+* [Walkthrough Link](https://drive.google.com/file/d/1313lCS6tPkmQkB33CiAXoHBb2Qp-ZL8p/view)
 
 ## Usage
 1. Clone team profile generator repository
